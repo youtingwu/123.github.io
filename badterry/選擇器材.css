@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+}
+.box{
+    border: solid 1px  aqua;
+    width: 280px;
+    background-color: aqua;
+    margin: 10px;
+}
+.boxs{
+    position: relative;
+    left: 300px;
+    border: solid 1px  rgb(255, 136, 0);
+    width: 280px;
+    background-color:rgb(255, 136, 0);
+    margin: 10px;
+}
+@media (max-width:600px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 40%;
+    }
+    /* .boxs{
+        position:relative;
+        left: 236px;
+    } */
+}
